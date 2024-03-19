@@ -54,7 +54,7 @@ class NADE(nn.Module):
 
         logits = self(inputs)
         
-        loss = F.binary_cross_entropy_with_logits(logits, targets)
+        loss = F.binary_cross_entropy_with_logits(logits, targets, reduction="mean")
         return loss
     
 
