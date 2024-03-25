@@ -92,8 +92,8 @@ if __name__ == "__main__":
     model = Autoregressive_RNN().to(device)
 
     # Sanity checks
-    print(model.get_loss(image_batch))
-    print(model.sample(num_samples=7))
+    # print(model.get_loss(image_batch))
+    # print(model.sample(num_samples=7))
         
 
 

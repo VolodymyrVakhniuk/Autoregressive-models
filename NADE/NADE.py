@@ -101,8 +101,8 @@ if __name__ == "__main__":
     model = NADE().to(device)
 
     # Sanity checks
-    print(model.get_loss(image_batch))
-    print(model.sample(num_samples=8).size())
+    # print(model.get_loss(image_batch))
+    # print(model.sample(num_samples=8).size())
 
     exit(-1)
 
